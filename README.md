@@ -10,25 +10,29 @@ Use to evaluate ha of writers and readers.
 
 1. Clone this repo
 
-
+```shell
     git clone ...
+```
     
 
 2. start a local postgres with doker
 
 
+```shell
     ./start-postgres.sh
-
+```
 
 3. start inserting records ...
 
 
+```shell
     ./run-insert-loop.sh
-
+```
 
 4. start reading records ...
 
 
+```shell
     ./run-select-loop.sh
-
+```
 
