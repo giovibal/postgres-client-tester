@@ -44,7 +44,7 @@ fn execute_insert_query(pool: Pool<PostgresConnectionManager<NoTls>>, counter: u
         error!("{}", err.to_string());
     } else {
         let cnt = result.unwrap();
-        info!("writed: {:?}", cnt);
+        info!("updated: {:?} rows", cnt);
     }
 }
 
