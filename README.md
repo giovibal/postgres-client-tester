@@ -11,7 +11,7 @@ Use to evaluate ha of writers and readers.
 1. Clone this repo
 
 ```shell
-    git clone ...
+git clone ...
 ```
     
 
@@ -19,20 +19,20 @@ Use to evaluate ha of writers and readers.
 
 
 ```shell
-    ./start-postgres.sh
+./start-postgres.sh
 ```
 
 3. start inserting records ...
 
 
 ```shell
-    ./run-insert-loop.sh
+./run-insert-loop.sh
 ```
 
 4. start reading records ...
 
 
 ```shell
-    ./run-select-loop.sh
+./run-select-loop.sh
 ```
 
