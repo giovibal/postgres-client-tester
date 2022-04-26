@@ -36,3 +36,18 @@ git clone ...
 ./run-select-loop.sh
 ```
 
+## Docker
+
+### Build image
+
+Docker image defaults to `giovibal` group, you can choose whatever prefer changing .sh scripts
+
+```shell
+./build-docker-image.sh
+```
+
+### Run Image
+
+```shell
+./run-docker.sh
+```
